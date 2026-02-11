@@ -1,0 +1,32 @@
+# Build artifacts
+build/
+DerivedData/
+
+# Xcode user data
+*.xcuserdata/
+xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Archives and symbols
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+
+# Secrets and API keys
+api_key.json
+*.p8
+.env
+
+# CocoaPods
+Pods/
+
+# Raw screenshots (build artifacts)
+raw_screenshots/
+
+# macOS
+.DS_Store

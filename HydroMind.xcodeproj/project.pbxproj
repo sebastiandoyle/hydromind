@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00FC797372D0EC79D282876C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE6B594C0A1B0ECCE43EC5 /* MainTabView.swift */; };
+		20EE82BC39C60EA2EACA9328 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267D11A8569FF29F11F9E495 /* StoreManager.swift */; };
+		6F19D8665261AE1C76E50EE1 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18B93654B13A339054A31F5 /* OnboardingView.swift */; };
+		80356C0FEA7EE2D9A3A6F413 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424215B3C113317D62CD00E5 /* HistoryView.swift */; };
+		9ED57F8108A7A8DB9407108D /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D26AE2A10DDDA2493881FBE /* PaywallView.swift */; };
+		9ED9C1B4457F7836E7596A51 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E275A8DCED9AA3434902EFF5 /* DashboardView.swift */; };
+		B10D0A405F2B1AB19A583C2A /* HydrationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BC8A615701C78424628898 /* HydrationStore.swift */; };
+		BC324E827E4B7D16BFADF7DE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD08AD60DBEFABEDCFD0FDB /* Theme.swift */; };
+		C5A7A4315DFC4ADEE2B1A22D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0778870C9A4136DF4846A2E0 /* SettingsView.swift */; };
+		C9597F9EF4D96FAB248FA691 /* HydroMindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44753503F1FA500BD60C0301 /* HydroMindTests.swift */; };
+		F10DE73D13FFF2447D027163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386FC4F51F59D0EEF4E883AA /* Assets.xcassets */; };
+		F46AEDB832AEF1BA8CC42B6D /* HydroMindApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ABA9320DB08F7ADDEDBEB2 /* HydroMindApp.swift */; };
+		F91AD9BF66A2F636C2019DFC /* AddDrinkSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB34D72CDB225D5A66A19A2D /* AddDrinkSheet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54FC5442E1CE425A833A98B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0901A9F337831EEDF1FA5EE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000FA0761869FB2ECD5DF409;
+			remoteInfo = HydroMind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0778870C9A4136DF4846A2E0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		17BC8A615701C78424628898 /* HydrationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrationStore.swift; sourceTree = "<group>"; };
+		267D11A8569FF29F11F9E495 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		29AE6B594C0A1B0ECCE43EC5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		386FC4F51F59D0EEF4E883AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D26AE2A10DDDA2493881FBE /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		424215B3C113317D62CD00E5 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		44753503F1FA500BD60C0301 /* HydroMindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroMindTests.swift; sourceTree = "<group>"; };
+		75B4CA2D454E49145719EFA1 /* HydroMind.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HydroMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD08AD60DBEFABEDCFD0FDB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		80B765414685B7A7920ADDBD /* HydroMindTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HydroMindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A18B93654B13A339054A31F5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C1ABA9320DB08F7ADDEDBEB2 /* HydroMindApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydroMindApp.swift; sourceTree = "<group>"; };
+		E275A8DCED9AA3434902EFF5 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		FB34D72CDB225D5A66A19A2D /* AddDrinkSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrinkSheet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		3E71359EC8979F0CEC0FA104 /* HydroMind */ = {
+			isa = PBXGroup;
+			children = (
+				FB34D72CDB225D5A66A19A2D /* AddDrinkSheet.swift */,
+				386FC4F51F59D0EEF4E883AA /* Assets.xcassets */,
+				E275A8DCED9AA3434902EFF5 /* DashboardView.swift */,
+				424215B3C113317D62CD00E5 /* HistoryView.swift */,
+				17BC8A615701C78424628898 /* HydrationStore.swift */,
+				C1ABA9320DB08F7ADDEDBEB2 /* HydroMindApp.swift */,
+				29AE6B594C0A1B0ECCE43EC5 /* MainTabView.swift */,
+				A18B93654B13A339054A31F5 /* OnboardingView.swift */,
+				3D26AE2A10DDDA2493881FBE /* PaywallView.swift */,
+				0778870C9A4136DF4846A2E0 /* SettingsView.swift */,
+				267D11A8569FF29F11F9E495 /* StoreManager.swift */,
+				7DD08AD60DBEFABEDCFD0FDB /* Theme.swift */,
+			);
+			name = HydroMind;
+			path = .;
+			sourceTree = "<group>";
+		};
+		6CCF9D00E47533598CA56031 = {
+			isa = PBXGroup;
+			children = (
+				3E71359EC8979F0CEC0FA104 /* HydroMind */,
+				D0CA27D6A35719A9FE81E8B6 /* HydroMindTests */,
+				EA2E2950FB6AF0005EE01F47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0CA27D6A35719A9FE81E8B6 /* HydroMindTests */ = {
+			isa = PBXGroup;
+			children = (
+				44753503F1FA500BD60C0301 /* HydroMindTests.swift */,
+			);
+			path = HydroMindTests;
+			sourceTree = "<group>";
+		};
+		EA2E2950FB6AF0005EE01F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75B4CA2D454E49145719EFA1 /* HydroMind.app */,
+				80B765414685B7A7920ADDBD /* HydroMindTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000FA0761869FB2ECD5DF409 /* HydroMind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D9A91CF1E708475CB32295E /* Build configuration list for PBXNativeTarget "HydroMind" */;
+			buildPhases = (
+				ECF40A3C419E8434D75330E0 /* Sources */,
+				7302FD1539225A6BD34AEC4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HydroMind;
+			packageProductDependencies = (
+			);
+			productName = HydroMind;
+			productReference = 75B4CA2D454E49145719EFA1 /* HydroMind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B72897F3CF4EDC04E24A247 /* HydroMindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A970417373D04E6314C2792 /* Build configuration list for PBXNativeTarget "HydroMindTests" */;
+			buildPhases = (
+				7C081D9446E98F3E87612FE7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EC5293A2C4436F6EC5F975 /* PBXTargetDependency */,
+			);
+			name = HydroMindTests;
+			packageProductDependencies = (
+			);
+			productName = HydroMindTests;
+			productReference = 80B765414685B7A7920ADDBD /* HydroMindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0901A9F337831EEDF1FA5EE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					000FA0761869FB2ECD5DF409 = {
+						DevelopmentTeam = 7277AB8379;
+						ProvisioningStyle = Automatic;
+					};
+					1B72897F3CF4EDC04E24A247 = {
+						DevelopmentTeam = 7277AB8379;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E49B976E73186C56D7B07375 /* Build configuration list for PBXProject "HydroMind" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 6CCF9D00E47533598CA56031;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000FA0761869FB2ECD5DF409 /* HydroMind */,
+				1B72897F3CF4EDC04E24A247 /* HydroMindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7302FD1539225A6BD34AEC4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10DE73D13FFF2447D027163 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C081D9446E98F3E87612FE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9597F9EF4D96FAB248FA691 /* HydroMindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF40A3C419E8434D75330E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91AD9BF66A2F636C2019DFC /* AddDrinkSheet.swift in Sources */,
+				9ED9C1B4457F7836E7596A51 /* DashboardView.swift in Sources */,
+				80356C0FEA7EE2D9A3A6F413 /* HistoryView.swift in Sources */,
+				B10D0A405F2B1AB19A583C2A /* HydrationStore.swift in Sources */,
+				F46AEDB832AEF1BA8CC42B6D /* HydroMindApp.swift in Sources */,
+				00FC797372D0EC79D282876C /* MainTabView.swift in Sources */,
+				6F19D8665261AE1C76E50EE1 /* OnboardingView.swift in Sources */,
+				9ED57F8108A7A8DB9407108D /* PaywallView.swift in Sources */,
+				C5A7A4315DFC4ADEE2B1A22D /* SettingsView.swift in Sources */,
+				20EE82BC39C60EA2EACA9328 /* StoreManager.swift in Sources */,
+				BC324E827E4B7D16BFADF7DE /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50EC5293A2C4436F6EC5F975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000FA0761869FB2ECD5DF409 /* HydroMind */;
+			targetProxy = 54FC5442E1CE425A833A98B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F028C00988BBFA4573633A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7277AB8379;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiandoyle.hydromind.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydroMind.app/HydroMind";
+			};
+			name = Debug;
+		};
+		367F4C2ACE0EAB4096F6552E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7277AB8379;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiandoyle.hydromind;
+				PRODUCT_NAME = HydroMind;
+				SDKROOT = iphoneos;
+				SUPPORTED_DESTINATIONS = "iPhone, iPad";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		879745509D147EDA0E61AB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		94F2DA6848DF782FF2D2FCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7277AB8379;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiandoyle.hydromind.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HydroMind.app/HydroMind";
+			};
+			name = Release;
+		};
+		B94B67AE13D7C937CFFE36A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED517B3DC425B61B0F42699B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7277AB8379;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sebastiandoyle.hydromind;
+				PRODUCT_NAME = HydroMind;
+				SDKROOT = iphoneos;
+				SUPPORTED_DESTINATIONS = "iPhone, iPad";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A970417373D04E6314C2792 /* Build configuration list for PBXNativeTarget "HydroMindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F028C00988BBFA4573633A6 /* Debug */,
+				94F2DA6848DF782FF2D2FCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D9A91CF1E708475CB32295E /* Build configuration list for PBXNativeTarget "HydroMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367F4C2ACE0EAB4096F6552E /* Debug */,
+				ED517B3DC425B61B0F42699B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E49B976E73186C56D7B07375 /* Build configuration list for PBXProject "HydroMind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94B67AE13D7C937CFFE36A7 /* Debug */,
+				879745509D147EDA0E61AB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0901A9F337831EEDF1FA5EE5 /* Project object */;
+}
